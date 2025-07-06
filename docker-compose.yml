@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend/resume-builder
+    ports:
+      - "4173:3000"
+    restart: always
+
+  backend:
+    build: ./backend
+    ports:
+      - "8005:8005"
+    restart: always
