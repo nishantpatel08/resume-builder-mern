@@ -1,6 +1,4 @@
 node_modules
 uploads
 .git
-.dockerignore
 Dockerfile
-.env
